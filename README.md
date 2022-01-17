@@ -1,5 +1,5 @@
 # 4wayIO-CAN-Modbus
-4x 230V Switchinput 4x Relay Output (250V/5A) CAN Bus Modbus SmartHome Project
+4x 230V Switchinput 4x Relay Output (250V/5A) CAN Bus or Modbus SmartHome Project
 
 This projects has started because i wanted to make my windowblinds smart. I allready got a RaspberryPi with IOBroker running, wich interfaces my heating control via CAN Bus. 
 I designed this PCB to go on the same bus, but added an additional RS485 Transceiver to also be able to interface Modbus.
