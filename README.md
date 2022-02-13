@@ -8,3 +8,5 @@ Because i dont wanted to change my existing wiring the pcb got 4x 230V switchinp
 The brain of the pcb is an ESP32 wroom Module. So it is possible to use WIFI instead of CAN or Modbus, since this is not my intended usecase feel free to just use the pcb-Layout and write the code by yourself :). 
 As the CAN transceiver i used a way to small HVSON8 footprint TJA1057GTK/3 it can directly interface with an 3.3V microcontroller. For Modbus a MAX22028FAWA+ IC from the manufacturer Maxim Integrated is used, it is an isolateted RS485 transceiver and fully covers the Modbus specification.
 The pcb is desigend in KiCAD, the code written in VScode with platformio.
+
+Currently this Projekt is work in progress and the code is not perfect, consider it as proof of concept ;) because there are currently no RS485 transceivers available the code is only written for CAN Bus. Control Board connector is for future extension of the user interface.
