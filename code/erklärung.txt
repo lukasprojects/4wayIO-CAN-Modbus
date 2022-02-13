@@ -1,0 +1,12 @@
+Button 1 -> Rollo1 hoch
+Button 2 -> Rollo1 runter
+Button 3 -> Rollo2 hoch
+Button 4 -> Rollo 2 runter
+
+int CANread[8]={1,2,3,4,0,0,0,0};
+1 = status rollo 1, wert position
+2= status rollo ´2, wert position
+3 rollo 1 soll, wert
+4 Rollo 2 soll, wert
+
+wenn bewgung an, stoppen, aktueller wert speichern
